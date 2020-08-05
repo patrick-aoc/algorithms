@@ -21,8 +21,8 @@ def delete_nth_alt(array, n):
     ans = []
     x = 0
     while x != len(array) - 1:
-        if ans.count(num) < n:
-            ans.append(num)
+        if ans.count(array[x]) < n:
+            ans.append(array[x])
         x += 1
     return ans
     
