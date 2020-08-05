@@ -1,5 +1,5 @@
 from algorithms.arrays import (
-    delete_nth, delete_nth_naive,
+    delete_nth, delete_nth_naive, delete_nth_alt,
     flatten_iter, flatten,
     garage,
     josephus,
